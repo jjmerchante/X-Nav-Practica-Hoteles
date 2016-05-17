@@ -1,0 +1,11 @@
+{
+  "name": "AlojamientoMadrid",
+  "description": "Alojamientos Madrid",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/images/favicon.png"
+  },
+  "developer": {
+    "name": "Jose Javier Merchante"
+  }
+}

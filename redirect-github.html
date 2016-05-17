@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!--This page is used for authentication as well as POST using the Iframe+form+hash communication hack.-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Redirecting login...</title>
+        <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    </head>
+    <body>
+        <div class="loading"><span>&bull;</span><span>&bull;</span><span>&bull;</span></div>
+        <script>
+    		window.onbeforeunload = function(){
+    			document.getElementsByTagName('h2')[0].innerHTML="Redirecting, please wait";
+    		}
+    	</script>
+        <script src="js/hello.min.js"></script>
+    </body>
+</html>

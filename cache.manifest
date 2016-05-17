@@ -1,0 +1,37 @@
+CACHE MANIFEST
+CACHE
+css/bootstrap-theme.min.css
+css/bootstrap.min.css
+css/MadridAccom.min.css
+
+data/alojamientos.json
+
+fonts/glyphicons-halflings-regular.eot
+fonts/glyphicons-halflings-regular.svg
+fonts/glyphicons-halflings-regular.ttf
+fonts/glyphicons-halflings-regular.woff
+fonts/glyphicons-halflings-regular.woff2
+
+images/chincheta.png
+images/favicon.ico
+images/github-icon.png
+
+js/github.min.js
+js/MadridAccom.min.js
+js/storage.min.js
+js/hello.min.js
+
+# other libraries for offline connection
+http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css
+https://code.jquery.com/jquery-1.12.3.min.js
+http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js
+https://code.jquery.com/ui/1.11.4/jquery-ui.min.js
+https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js
+https://apis.google.com/js/client.js?onload=initGooglePlus
+
+NETWORK
+http://a.tile.osm.org
+http://b.tile.osm.org
+http://c.tile.osm.org
+
+# v2 15-5-2016

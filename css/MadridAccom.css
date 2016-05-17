@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(240,240,240);
+}
+
+/*I don't like bootstrap default*/
+.navbar-default {
+    background-image: none;
+}
+
+.title {
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+#tabs {
+    border: solid 1px rgb(221, 221, 221);
+    box-shadow: 0 0 10px 1px rgb(200, 200, 200);
+}
+
+.container-tab {
+    padding: 10px;
+    margin: 1px;
+    margin-top: 0;
+    background-color: white;
+}
+
+#map {
+    height: 480px;
+    border-radius: 3px;
+    box-shadow: 0 0 4px 3px rgb(175, 175, 175);
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.paneltitle {
+    font-weight: bold;
+}
+
+.listItems {
+    overflow: auto;
+    max-height: 330px;
+    border: solid 1px rgb(180, 180, 180);
+}
+
+.listItems > li:hover {
+    background-color: rgb(217,237,247);
+    cursor: pointer;
+}
+
+.loadAccommodBtn {
+    width: 100%;
+}
+
+.filterList {
+    width: 100%;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 3px;
+}
+
+.images-panel {
+    padding: 15px;
+}
+
+.images img {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#img-modal {
+  transform: translate(0, 15%);
+  -o-transform: translate(0, 15%);
+  -ms-transform: translate(0, 15%); /* IE 9 */
+  -webkit-transform: translate(0, 15%); /* Safari and Chrome */
+}
+
+.table-hover-good {
+    background-color: rgb(98,211,255)
+}
+
+.table-hover-bad {
+    background-color: rgb(255,100,100)
+}
+
+#mainTabs a {
+    outline: none;
+}
+
+.alerts {
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+    width: 100%;
+}
+
+.alert {
+    margin-bottom: 2px;
+}
+
+#accommodate {
+    text-align: center;
+}
+
+#google-id-new {
+    margin: auto;
+}
+
+.gog-person {
+    text-align: center;
+}
+
+.form-horizontal {
+    padding: 15px;
+}
+
+.media {
+    margin-top: 0;
+}
+
+/*Bootstrap sticky-footer*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(108,211,255);
+  text-align: center;
+  padding: 5px;
+}
