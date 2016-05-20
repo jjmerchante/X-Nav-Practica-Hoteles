@@ -365,6 +365,8 @@ function showAccommodation(event) {
     // Get data
     var coord = [actualAccom.geoData.latitude, actualAccom.geoData.longitude];
     var name = actualAccom.basicData.name;
+    var address = actualAccom.geoData.address;
+    var zipcode = actualAccom.geoData.zipcode;
     var categ = actualAccom.extradata.categorias.categoria.item[1]['#text'];
     var text = actualAccom.basicData.body || '<p>No se encontró información acerca de este hotel</p>';
     var url = actualAccom.basicData.web;
@@ -387,6 +389,7 @@ function showAccommodation(event) {
     $('.hotel-info').hide('blind', function() {
         // Represent data
         $('a.titleAccommodShow').html(name).attr('href', url);
+        $('.directionAccommod').html('Calle ' + address + ", Madrid. " + zipcode);
         $('.hotel-text').html(text);
         $('.starsAccommodShow').html('');
         for (var i = 0; i < numstars; i++) {
