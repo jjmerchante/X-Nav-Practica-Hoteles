@@ -341,19 +341,20 @@ function changeImagesAccom(images) {
 function representCarousel(images) {
     var urlCarousel = $('#imagesUrlSlider');
     var indicCarousel = $('#indicatorsSlider');
-
-    urlCarousel.html('');
-    indicCarousel.html('');
-    images.forEach(function(url, pos) {
-        if (pos === 0) {
-            indicCarousel.append('<li data-target="#carousel-images" data-slide-to="0" class="active"></li>');
-            urlCarousel.append('<div class="item active"><img src="' + url + '"></div>');
-        } else {
-            indicCarousel.append('<li data-target="#carousel-images" data-slide-to="' + pos + '"></li>');
-            urlCarousel.append('<div class="item"><img src="' + url + '"></div>');
-        }
-    });
-    $('.carousel').carousel();
+    if (images.length > 0) {
+        urlCarousel.html('');
+        indicCarousel.html('');
+        images.forEach(function(url, pos) {
+            if (pos === 0) {
+                indicCarousel.append('<li data-target="#carousel-images" data-slide-to="0" class="active"></li>');
+                urlCarousel.append('<div class="item active"><img src="' + url + '"></div>');
+            } else {
+                indicCarousel.append('<li data-target="#carousel-images" data-slide-to="' + pos + '"></li>');
+                urlCarousel.append('<div class="item"><img src="' + url + '"></div>');
+            }
+        });
+        $('.carousel').carousel();
+    }
 }
 
 // Show accommodation in the map and information at the bottom
