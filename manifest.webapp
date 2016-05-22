@@ -1,9 +1,9 @@
 {
   "name": "Alojamientos",
   "description": "Alojamientos Madrid",
-  "launch_path": "/index.html",
+  "launch_path": "X-Nav-Practica-Hoteles/index.html",
   "icons": {
-    "128": "/images/favicon.png"
+    "128": "X-Nav-Practica-Hoteles/images/favicon.png"
   },
   "developer": {
     "name": "Jose Javier Merchante"
