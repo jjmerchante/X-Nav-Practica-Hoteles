@@ -500,7 +500,7 @@ function appendUserAccommodated(resp) {
  **                   MAP                        **
  **************************************************/
 var pushpin = L.icon({
-    iconUrl: "../images/chincheta.png",
+    iconUrl: "/X-Nav-Practica-Hoteles/images/chincheta.png",
     iconSize: [37, 37],
     iconAnchor: [2, 33],
     popupAnchor: [20, -30]
